@@ -19,7 +19,7 @@ def non_linear_generator(k: int, png_params = [11, 13, 17, 119], k0 = 19) -> int
     a2  = png_params[1]
     b   = png_params[2]
     c   = png_params[3]
-    k_i = list(k0) 
+    k_i = [k0] 
     
     #calculate
     for i in range(1, k+1):
